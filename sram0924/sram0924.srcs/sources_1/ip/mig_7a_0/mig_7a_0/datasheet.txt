@@ -1,0 +1,75 @@
+
+
+Vivado Project Options:
+   Target Device                   : xc7vx690t-ffg1761
+   Speed Grade                     : -3
+   HDL                             : verilog
+   Synthesis Tool                  : VIVADO
+
+MIG Output Options:
+   Module Name                     : mig_7a_0
+   No of Controllers               : 1
+   Selected Compatible Device(s)   : --
+
+FPGA Options:
+   System Clock Type               : Differential
+   Reference Clock Type            : Differential
+   Debug Port                      : OFF
+   Internal Vref                   : disabled
+
+Extended FPGA Options:
+   DCI for Data Read (Q)           : enabled
+   Internal Termination (HR Banks) : 50 Ohms
+    
+/*******************************************************/
+/*                  Controller 0                       */
+/*******************************************************/
+Controller Options :
+   Memory                 : QDRIIPLUS_SRAM
+   Design Clock Frequency : 2000 ps (500.00 MHz)
+   Input Clock Period     : 2999 ps
+   CLKFBOUT_MULT (PLL)    : 3
+   DIVCLK_DIVIDE (PLL)    : 1
+   VCC_AUX IO             : 1.8V
+   Memory Type            : Components-BL4
+   Memory Part            : CY7C25652KV18-500BZC
+   Equivalent Part(s)     : --
+   Data Width             : 36
+   Fixed Latency Mode     : 0
+   Phy Latency Value      : 0
+
+
+Bank Selections:
+	Bank: 37
+		Byte Group T0:	D[0-8]
+		Byte Group T1:	D[9-17]
+		Byte Group T2:	D[18-26]
+		Byte Group T3:	D[27-35]
+	Bank: 38
+		Byte Group T2:	Address/Ctrl-0
+		Byte Group T3:	Address/Ctrl-1
+	Bank: 39
+		Byte Group T0:	Q[0-8]
+		Byte Group T1:	Q[9-17]
+		Byte Group T2:	Q[18-26]
+		Byte Group T3:	Q[27-35]
+
+Reference_Clock: 
+	SignalName: clk_ref_p/n
+		PadLocation: AB33/AC33(CC_P/N)  Bank: 16
+
+System_Clock: 
+	SignalName: sys_clk_p/n
+		PadLocation: D27/D28(CC_P/N)  Bank: 37
+
+System_Control: 
+	SignalName: sys_rst
+		PadLocation: A34  Bank: 35
+	SignalName: init_calib_complete
+		PadLocation: A35  Bank: 35
+	SignalName: tg_compare_error
+		PadLocation: A40  Bank: 19
+
+
+
+    

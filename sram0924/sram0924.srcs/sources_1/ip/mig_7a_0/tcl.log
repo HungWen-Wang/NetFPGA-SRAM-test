@@ -1,0 +1,156 @@
+MIG: 15:45:59 : Running customizer.xit
+MIG: 15:45:59 : ################# RUNNING MIG INTERACTIVE ###################
+MIG: 15:45:59 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2016.4/data/ip/xilinx/mig_7series_v4_0... instDirPath: /root/sram_NetFPGA-SUME-live/.Xil/Vivado-1738-cial/coregen/mig_7series_0
+MIG: 15:45:59 : synp_flow:  -- synthesis_mode: Other
+MIG: 15:45:59 : outputDirectory: /root/sram_NetFPGA-SUME-live/.Xil/Vivado-1738-cial/coregen/mig_7series_0/_tmp/
+MIG: 15:45:59 : vivado_mode: xpg_pa
+MIG: 15:45:59 :  locked false  
+MIG: 15:45:59 : HDL Language: Verilog
+MIG: 15:45:59 : compInfo: true
+MIG: 15:45:59 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 15:45:59 : xilinx_path: /opt/Xilinx/Vivado/2016.4/ids_lite/ISE
+MIG: 15:45:59 : I am in catch area
+MIG: 15:45:59 : Running /opt/Xilinx/Vivado/2016.4/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /root/sram_NetFPGA-SUME-live/.Xil/Vivado-1738-cial/coregen/mig_7series_0/xil_txt.in -cg_exc_out /root/sram_NetFPGA-SUME-live/.Xil/Vivado-1738-cial/coregen/mig_7series_0/xil_txt.out ... 
+MIG: 15:51:11 : Prasad before: xmlPropertyPrj --  .prj
+MIG: 15:51:11 : Prasad After: xmlPropertyPrj -- mig_a.prj
+MIG: 15:51:11 : XML_INPUT_FILE: /root/sram_NetFPGA-SUME-live/.Xil/Vivado-1738-cial/coregen/mig_7series_0/mig_a.prj
+MIG: 15:51:11 : Component_Name: mig_7a_0
+MIG: 15:51:11 : Moving mig_7a_0_xmdf.tcl ...
+MIG: 15:51:11 : Moving mig_7a_0 ...
+MIG: 15:51:11 : Moving mig_7a_0.veo ...
+MIG: 15:51:11 : Sending back 0
+MIG: 15:51:12 : xml_input_file: mig_a.prj
+MIG: 15:51:12 : Absolute path of xml_input_file: /root/sram_NetFPGA-SUME-live/sram0924/sram0924.srcs/sources_1/ip/mig_7a_0/mig_a.prj
+MIG: 15:51:12 : xml_input_file: mig_a.prj
+MIG: 15:51:12 : Absolute path of xml_input_file: /root/sram_NetFPGA-SUME-live/sram0924/sram0924.srcs/sources_1/ip/mig_7a_0/mig_a.prj
+MIG: 15:51:12 : In updateAllModelParams
+MIG: 15:51:12 : IGN:     <ModuleName>mig_7a_0</ModuleName> <==>     <ModuleName>mig_7a_0</ModuleName> 
+MIG: 15:51:12 : IGN:         <InputClkFreq>333.333</InputClkFreq> <==>         <InputClkFreq>333.333</InputClkFreq> 
+MIG: 15:51:12 : XGUI hdlLanguage: Verilog
+MIG: 15:51:12 : xgui vivado_mode: xpg_pa
+MIG: 15:51:12 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 15:51:12 : Reading /root/sram_NetFPGA-SUME-live/sram0924/sram0924.srcs/sources_1/ip/mig_7a_0/mig_7a_0/user_design/rtl/mig_7a_0_mig.v ...
+MIG: 15:51:13 : 1
+MIG: 15:51:13 : Inside fn mem: QDRIIP
+MIG: 15:51:13 : detect_uiclk: 250000000
+MIG: 15:51:13 : cntrl:  memtype: QDRIIP
+MIG: 15:51:13 : 1000
+MIG: 15:51:13 :  MMCM_VCO single ctrl param_name: MMCM_VCO --  possibleMaxVcoVal: 1000 
+MIG: 15:51:13 : QDRIIP
+MIG: 15:51:13 : 
+MIG: 15:51:13 : 250000000
+MIG: 15:51:13 : 
+MIG: 15:51:13 :  polarity_value: 1
+MIG: 15:51:13 : 
+MIG: 15:51:13 :  Invalid Param: QDRIIP_MEM_TYPE ==> "QDR2PLUS"
+MIG: 15:51:13 : 36
+MIG: 15:51:13 :  Valid Param: QDRIIP_DATA_WIDTH ==> 36
+MIG: 15:51:13 : 4
+MIG: 15:51:13 :  Valid Param: QDRIIP_BW_WIDTH ==> 4
+MIG: 15:51:13 : 19
+MIG: 15:51:13 :  Valid Param: QDRIIP_ADDR_WIDTH ==> 19
+MIG: 15:51:13 : 
+MIG: 15:51:13 :  Valid Param: QDRIIP_NUM_DEVICES ==> 1
+MIG: 15:51:13 :  Invalid Param: QDRIIP_MEM_RD_LATENCY ==> 2.5
+MIG: 15:51:13 :  Invalid Param: QDRIIP_CPT_CLK_CQ_ONLY ==> "TRUE"
+MIG: 15:51:13 :  Invalid Param: QDRIIP_INTER_BANK_SKEW ==> 0
+MIG: 15:51:13 :  Invalid Param: QDRIIP_PHY_CONTROL_MASTER_BANK ==> 2
+MIG: 15:51:13 : 4
+MIG: 15:51:13 :  Valid Param: QDRIIP_BURST_LEN ==> 4
+MIG: 15:51:13 :  Invalid Param: QDRIIP_FIXED_LATENCY_MODE ==> 0
+MIG: 15:51:13 :  Invalid Param: QDRIIP_PHY_LATENCY ==> 0
+MIG: 15:51:13 :  Invalid Param: QDRIIP_CLKIN_PERIOD ==> 2999
+MIG: 15:51:13 :  Invalid Param: QDRIIP_CLKFBOUT_MULT ==> 3
+MIG: 15:51:13 :  Invalid Param: QDRIIP_DIVCLK_DIVIDE ==> 1
+MIG: 15:51:13 :  Invalid Param: QDRIIP_CLKOUT0_DIVIDE ==> 2
+MIG: 15:51:13 :  Invalid Param: QDRIIP_CLKOUT1_DIVIDE ==> 2
+MIG: 15:51:13 :  Invalid Param: QDRIIP_CLKOUT2_DIVIDE ==> 32
+MIG: 15:51:13 :  Invalid Param: QDRIIP_CLKOUT3_DIVIDE ==> 4
+MIG: 15:51:13 :  Invalid Param: QDRIIP_MMCM_VCO ==> 1000
+MIG: 15:51:13 :  Invalid Param: QDRIIP_MMCM_MULT_F ==> 4
+MIG: 15:51:13 :  Invalid Param: QDRIIP_MMCM_DIVCLK_DIVIDE ==> 1
+MIG: 15:51:13 :  Invalid Param: QDRIIP_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 15:51:13 :  Invalid Param: QDRIIP_SIMULATION ==> "FALSE"
+MIG: 15:51:13 :  Invalid Param: QDRIIP_BYTE_LANES_B0 ==> 4'b1111
+MIG: 15:51:13 :  Invalid Param: QDRIIP_BYTE_LANES_B1 ==> 4'b0011
+MIG: 15:51:13 :  Invalid Param: QDRIIP_BYTE_LANES_B2 ==> 4'b1111
+MIG: 15:51:13 :  Invalid Param: QDRIIP_BYTE_LANES_B3 ==> 4'b0000
+MIG: 15:51:13 :  Invalid Param: QDRIIP_BYTE_LANES_B4 ==> 4'b0000
+MIG: 15:51:13 :  Invalid Param: QDRIIP_DATA_CTL_B0 ==> 4'b1111
+MIG: 15:51:13 :  Invalid Param: QDRIIP_DATA_CTL_B1 ==> 4'b0000
+MIG: 15:51:13 :  Invalid Param: QDRIIP_DATA_CTL_B2 ==> 4'b1111
+MIG: 15:51:13 :  Invalid Param: QDRIIP_DATA_CTL_B3 ==> 4'b0000
+MIG: 15:51:13 :  Invalid Param: QDRIIP_DATA_CTL_B4 ==> 4'b0000
+MIG: 15:51:13 :  Invalid Param: QDRIIP_CPT_CLK_SEL_B0 ==> 32'h11_11_11_11
+MIG: 15:51:13 :  Invalid Param: QDRIIP_CPT_CLK_SEL_B1 ==> 32'h00_00_00_00
+MIG: 15:51:13 :  Invalid Param: QDRIIP_CPT_CLK_SEL_B2 ==> 32'h00_00_00_00
+MIG: 15:51:13 :  Invalid Param: QDRIIP_PHY_0_BITLANES ==> 48'hFF8_FF1_D3F_EFC
+MIG: 15:51:13 :  Invalid Param: QDRIIP_PHY_1_BITLANES ==> 48'h000_000_FFF_FF8
+MIG: 15:51:13 :  Invalid Param: QDRIIP_PHY_2_BITLANES ==> 48'h3FE_FFE_CFF_FFC
+MIG: 15:51:13 :  Invalid Param: QDRIIP_PHY_3_BITLANES ==> 48'h000_000_000_000
+MIG: 15:51:13 :  Invalid Param: QDRIIP_PHY_4_BITLANES ==> 48'h000_000_000_000
+MIG: 15:51:13 :  Invalid Param: QDRIIP_BYTE_GROUP_TYPE_B0 ==> 4'b1111
+MIG: 15:51:13 :  Invalid Param: QDRIIP_BYTE_GROUP_TYPE_B1 ==> 4'b0000
+MIG: 15:51:13 :  Invalid Param: QDRIIP_BYTE_GROUP_TYPE_B2 ==> 4'b0000
+MIG: 15:51:13 :  Invalid Param: QDRIIP_BYTE_GROUP_TYPE_B3 ==> 4'b0000
+MIG: 15:51:13 :  Invalid Param: QDRIIP_BYTE_GROUP_TYPE_B4 ==> 4'b0000
+MIG: 15:51:13 :  Invalid Param: QDRIIP_K_MAP ==> 48'h00_00_00_00_00_23
+MIG: 15:51:13 :  Invalid Param: QDRIIP_CQ_MAP ==> 48'h00_00_00_00_00_01
+MIG: 15:51:13 :  Invalid Param: QDRIIP_RD_MAP ==> 12'h103
+MIG: 15:51:13 :  Invalid Param: QDRIIP_WR_MAP ==> 12'h104
+MIG: 15:51:13 :  Invalid Param: QDRIIP_ADD_MAP ==> 264'h000_000_000_119_118_117_116_11B_11A_115_114_113_112_111_110_109_108_107_106_10B_10A_105
+MIG: 15:51:13 :  Invalid Param: QDRIIP_ADDR_CTL_MAP ==> 32'h00_00_10_11
+MIG: 15:51:13 :  Invalid Param: QDRIIP_D0_MAP ==> 108'h231_232_233_234_235_236_237_238_239
+MIG: 15:51:13 :  Invalid Param: QDRIIP_D1_MAP ==> 108'h221_222_223_224_225_22A_22B_226_227
+MIG: 15:51:13 :  Invalid Param: QDRIIP_D2_MAP ==> 108'h210_211_212_213_214_215_21A_216_217
+MIG: 15:51:13 :  Invalid Param: QDRIIP_D3_MAP ==> 108'h202_203_204_205_20A_20B_206_207_208
+MIG: 15:51:13 :  Invalid Param: QDRIIP_D4_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 15:51:13 :  Invalid Param: QDRIIP_D5_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 15:51:13 :  Invalid Param: QDRIIP_D6_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 15:51:13 :  Invalid Param: QDRIIP_D7_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 15:51:13 :  Invalid Param: QDRIIP_BW_MAP ==> 84'h000_000_000_209_21B_228_229
+MIG: 15:51:13 :  Invalid Param: QDRIIP_Q0_MAP ==> 108'h033_034_035_03A_03B_036_037_038_039
+MIG: 15:51:13 :  Invalid Param: QDRIIP_Q1_MAP ==> 108'h020_024_025_02A_02B_026_027_028_029
+MIG: 15:51:13 :  Invalid Param: QDRIIP_Q2_MAP ==> 108'h010_011_012_013_014_015_01A_01B_018
+MIG: 15:51:13 :  Invalid Param: QDRIIP_Q3_MAP ==> 108'h002_003_004_005_00A_00B_006_007_009
+MIG: 15:51:13 :  Invalid Param: QDRIIP_Q4_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 15:51:13 :  Invalid Param: QDRIIP_Q5_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 15:51:13 :  Invalid Param: QDRIIP_Q6_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 15:51:13 :  Invalid Param: QDRIIP_Q7_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 15:51:13 :  Invalid Param: QDRIIP_IODELAY_HP_MODE ==> "ON"
+MIG: 15:51:13 :  Invalid Param: QDRIIP_IBUF_LPWR_MODE ==> "OFF"
+MIG: 15:51:13 :  Invalid Param: QDRIIP_TCQ ==> 100
+MIG: 15:51:13 :  Invalid Param: QDRIIP_IODELAY_GRP0 ==> "MIG_7A_0_IODELAY_MIG0"
+MIG: 15:51:13 :  Invalid Param: QDRIIP_SYSCLK_TYPE ==> "DIFFERENTIAL"
+MIG: 15:51:13 :  Invalid Param: QDRIIP_REFCLK_TYPE ==> "DIFFERENTIAL"
+MIG: 15:51:13 :  Invalid Param: QDRIIP_SYS_RST_PORT ==> "TRUE"
+MIG: 15:51:13 :  Invalid Param: QDRIIP_integer DEVICE_TAPS ==> 32
+MIG: 15:51:13 :  Invalid Param: QDRIIP_REFCLK_FREQ ==> 200.0
+MIG: 15:51:13 :  Invalid Param: QDRIIP_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 15:51:13 :  Invalid Param: QDRIIP_CLK_PERIOD ==> 2000
+MIG: 15:51:13 :  Invalid Param: QDRIIP_nCK_PER_CLK ==> 2
+MIG: 15:51:13 :  Invalid Param: QDRIIP_DIFF_TERM_SYSCLK ==> "FALSE"
+MIG: 15:51:13 :  Invalid Param: QDRIIP_CLK_STABLE ==> (20*1000*1000/(CLK_PERIOD*2))
+MIG: 15:51:13 : 
+MIG: 15:51:13 :  Valid Param: QDRIIP_DEBUG_PORT ==> OFF
+MIG: 15:51:13 : 
+MIG: 15:51:13 :  Invalid Param: QDRIIP_RST_ACT_LOW ==> 1
+MIG: 15:51:13 : 
+MIG: 15:51:13 : 
+MIG: 15:51:13 : 
+MIG: 15:51:13 : Same Interface
+MIG: 15:51:47 : Running synthesis.xit
+MIG: 15:51:47 : IGN:     <ModuleName>mig_7a_0</ModuleName> <==>     <ModuleName>mig_7a_0</ModuleName> 
+MIG: 15:51:47 : IGN:         <InputClkFreq>333.333</InputClkFreq> <==>         <InputClkFreq>333.333</InputClkFreq> 
+MIG: 15:51:48 : Running vlog_synth_rpr.xit
+MIG: 15:51:48 : IGN:     <ModuleName>mig_7a_0</ModuleName> <==>     <ModuleName>mig_7a_0</ModuleName> 
+MIG: 15:51:48 : IGN:         <InputClkFreq>333.333</InputClkFreq> <==>         <InputClkFreq>333.333</InputClkFreq> 
+MIG: 15:51:48 : Running simulation.xit
+MIG: 15:51:48 : IGN:     <ModuleName>mig_7a_0</ModuleName> <==>     <ModuleName>mig_7a_0</ModuleName> 
+MIG: 15:51:48 : IGN:         <InputClkFreq>333.333</InputClkFreq> <==>         <InputClkFreq>333.333</InputClkFreq> 
+MIG: 15:51:48 : Running vlog_sim_rpr.xit .. PRASAD DBG1
+MIG: 15:51:48 : IGN:     <ModuleName>mig_7a_0</ModuleName> <==>     <ModuleName>mig_7a_0</ModuleName> 
+MIG: 15:51:48 : IGN:         <InputClkFreq>333.333</InputClkFreq> <==>         <InputClkFreq>333.333</InputClkFreq> 
+MIG: 15:51:48 : Running implementation.xit
+MIG: 15:51:48 : IGN:     <ModuleName>mig_7a_0</ModuleName> <==>     <ModuleName>mig_7a_0</ModuleName> 
+MIG: 15:51:48 : IGN:         <InputClkFreq>333.333</InputClkFreq> <==>         <InputClkFreq>333.333</InputClkFreq> 

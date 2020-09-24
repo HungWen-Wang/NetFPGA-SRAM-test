@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Sep 24 15:51:49 2020
+# Process ID: 2007
+# Current directory: /root/sram_NetFPGA-SUME-live/sram0924/sram0924.runs/mig_7a_0_synth_1
+# Command line: vivado -log mig_7a_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mig_7a_0.tcl
+# Log file: /root/sram_NetFPGA-SUME-live/sram0924/sram0924.runs/mig_7a_0_synth_1/mig_7a_0.vds
+# Journal file: /root/sram_NetFPGA-SUME-live/sram0924/sram0924.runs/mig_7a_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source mig_7a_0.tcl -notrace
